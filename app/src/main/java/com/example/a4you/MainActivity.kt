@@ -2,6 +2,7 @@
 
 package com.example.a4you
 
+import android.content.Intent
 import android.widget.Button
 import android.widget.Toast
 import android.os.Bundle
@@ -33,6 +34,7 @@ class MainActivity : ComponentActivity() {
         {
             // displaying a toast message
             Toast.makeText(this@MainActivity, R.string.message, Toast.LENGTH_LONG).show()
+            startActivity(Intent(this@MainActivity, LoginActivity::class.java))
         }
         button0?.setOnClickListener()
         {
