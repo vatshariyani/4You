@@ -7,4 +7,7 @@
     <string name="message1" translatable="false">Sign Up</string>
     <string name="message0" translatable="false">Login With Google</string>
     <string name="logo">Logo</string>
+    <string name="Password"><i>Password</i></string>
+    <string name="Email_ID"><i>Email_ID</i></string>
+    <string name="login_activity_label">Login</string>
 </resources>
