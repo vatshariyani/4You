@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">ForYou</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="login_with_google">Login With Google</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="message" translatable="false">Login</string>
+    <string name="message1" translatable="false">Sign Up</string>
+    <string name="message0" translatable="false">Login With Google</string>
+    <string name="logo">Logo</string>
+</resources>
