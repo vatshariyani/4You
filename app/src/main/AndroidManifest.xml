@@ -30,9 +30,20 @@
             android:label="@string/login_activity_label"
             android:theme="@style/Theme._4You">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.LOGIN"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomeActivity"
+            android:exported="true"
+            android:label="Home Page"
+            android:theme="@style/Theme._4You">
+            <intent-filter>
+                <action android:name="android.intent.action.HOME"/>
+
+                <category android:name="android.intent.category.HOME"/>
             </intent-filter>
         </activity>
 
