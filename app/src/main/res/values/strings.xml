@@ -12,4 +12,5 @@
     <string name="login_activity_label">Login</string>
     <string name="incorrect_password">Incorrect Password</string>
     <string name="incorrect_email_id">Incorrect Email ID</string>
+    <string name="default_web_client_id">AIzaSyB4RNeO08AWsJKU-xKdV7EclncQvKO9WFI</string>
 </resources>
