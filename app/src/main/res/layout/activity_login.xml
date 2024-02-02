@@ -52,9 +52,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="174dp"
-        android:layout_height="48dp"
-        android:background="@color/dark_blue"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
         android:text="@string/login"
@@ -62,10 +61,13 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.28" />
+        app:layout_constraintVertical_bias="0.271"
+        android:background="@drawable/rounded_button_background" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
