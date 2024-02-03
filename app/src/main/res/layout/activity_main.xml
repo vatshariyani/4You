@@ -13,17 +13,19 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="174dp"
-        android:layout_height="48dp"
-        android:background="@color/dark_blue"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button_background"
+        android:paddingStart="25sp"
+        android:paddingEnd="25sp"
         android:text="@string/login"
         android:textColor="@color/white"
         android:textSize="24sp"
+        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.682"
@@ -31,17 +33,19 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="174dp"
-        android:layout_height="48dp"
-        android:background="@color/dark_blue"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button_background"
+        android:paddingStart="25sp"
+        android:paddingEnd="25sp"
         android:text="@string/sign_up"
         android:textColor="@color/white"
         android:textSize="24sp"
+        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintHorizontal_bias="0.18"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.682"
@@ -49,17 +53,19 @@
 
     <Button
         android:id="@+id/button0"
-        android:layout_width="258dp"
-        android:layout_height="57dp"
-        android:background="@color/red"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/button_background_red"
+        android:paddingStart="25sp"
+        android:paddingEnd="25sp"
         android:text="@string/login_with_google"
         android:textColor="@color/white"
         android:textSize="24sp"
+        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.553"
@@ -68,8 +74,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="290dp"
-        android:layout_height="281dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:contentDescription="@string/logo"
         android:src="@drawable/foryou_logo"
         app:layout_constraintBottom_toTopOf="@+id/button"
@@ -79,17 +86,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/textView"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0.5dp"-->
-<!--        android:background="@color/light_grey"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.5"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button0"-->
-<!--        app:layout_constraintVertical_bias="0.5" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0.5dp"-->
+    <!--        android:background="@color/light_grey"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button0"-->
+    <!--        app:layout_constraintVertical_bias="0.5" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

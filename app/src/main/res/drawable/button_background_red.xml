@@ -1,8 +1,8 @@
-<!--UI for button 'activity_main.xml' 'activity_login.xml'(login,sign up)-->
+<!--UI for 'login with google' button-->
 
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <solid android:color="@color/dark_blue" /> <!-- Background color of the button -->
+    <solid android:color="@color/red" /> <!-- Background color of the button -->
     <corners android:radius="500sp" /> <!-- Adjust the corner radius as needed -->
 </shape>
 
