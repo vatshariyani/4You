@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">ForYou</string>
+    <string name="app_name" translatable="false">4You</string>
     <string name="login" translatable="false">Login</string>
     <string name="login_with_google">Sign In With Google</string>
     <string name="sign_up">Sign Up</string>
