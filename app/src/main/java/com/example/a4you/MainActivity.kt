@@ -86,6 +86,7 @@ class MainActivity : ComponentActivity() {
         binding.button1.setOnClickListener {
             // displaying a toast message
             Toast.makeText(this@MainActivity, R.string.message1, Toast.LENGTH_LONG).show()
+            startActivity(Intent(this@MainActivity, SignupActivity::class.java))
         }
     }
 
