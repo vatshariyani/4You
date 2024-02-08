@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">ForYou</string>
     <string name="login" translatable="false">Login</string>
-    <string name="login_with_google">Login With Google</string>
+    <string name="login_with_google">Sign In With Google</string>
     <string name="sign_up">Sign Up</string>
     <string name="message" translatable="false">Login</string>
     <string name="message1" translatable="false">Sign Up</string>
@@ -12,5 +12,7 @@
     <string name="login_activity_label">Login</string>
     <string name="incorrect_password">Incorrect Password</string>
     <string name="incorrect_email_id">Incorrect Email ID</string>
-    <string name="default_web_client_id">AIzaSyB4RNeO08AWsJKU-xKdV7EclncQvKO9WFI</string>
+    <string name="default_web_client_id">541760585429-s0npl1s0gogj4cjvq62rt2r3m7mgcd33.apps.googleusercontent.com</string>
+    <string name="sign_in_successful">Sign In Successful</string>
+    <string name="sign_out">Sign Out</string>
 </resources>
