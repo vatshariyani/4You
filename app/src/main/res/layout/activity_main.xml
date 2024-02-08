@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:contentDescription="@string/logo"
-        android:src="@drawable/foryou_logo"
+        android:src="@drawable/foryou_logo_full"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.531"

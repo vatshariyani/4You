@@ -11,7 +11,7 @@
         android:layout_width="345sp"
         android:layout_height="425sp"
         android:contentDescription="@string/logo"
-        android:src="@drawable/foryou_logo"
+        android:src="@drawable/foryou_logo_full"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
