@@ -12,7 +12,7 @@
     <string name="login_activity_label">Login</string>
     <string name="incorrect_password">Incorrect Password</string>
     <string name="incorrect_email_id">Incorrect Email ID</string>
-    <string name="default_web_client_id">541760585429-s0npl1s0gogj4cjvq62rt2r3m7mgcd33.apps.googleusercontent.com</string>
+    <string name="default_web_client_id">992940108080-fftcvl14eitvnv2cadrrs9piigstp8g1.apps.googleusercontent.com</string>
     <string name="sign_in_successful">Sign In Successful</string>
     <string name="sign_out">Sign Out</string>
 </resources>
