@@ -15,4 +15,5 @@
     <string name="default_web_client_id">992940108080-fftcvl14eitvnv2cadrrs9piigstp8g1.apps.googleusercontent.com</string>
     <string name="sign_in_successful">Sign In Successful</string>
     <string name="sign_out">Sign Out</string>
+    <string name="username">Username</string>
 </resources>
