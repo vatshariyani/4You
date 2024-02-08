@@ -16,10 +16,10 @@ class HomeActivity : ComponentActivity() {
 
         val currentUser = FirebaseAuth.getInstance().currentUser
         if (currentUser != null) {
-            val email = currentUser.email
+            //val email = currentUser.email
             val userName = currentUser.displayName
 
-            binding.txtEmail.text = email
+            //binding.txtEmail.text = email
             binding.txtUsername.text = userName
         }
     }
