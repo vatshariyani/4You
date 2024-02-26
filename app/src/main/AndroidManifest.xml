@@ -32,7 +32,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.LOGIN"/>
 
-                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LOGIN"/>
             </intent-filter>
         </activity>
 
@@ -44,6 +44,17 @@
                 <action android:name="android.intent.action.HOME"/>
 
                 <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SignupActivity"
+            android:exported="true"
+            android:label="@string/login_activity_label"
+            android:theme="@style/Theme._4You">
+            <intent-filter>
+                <action android:name="android.intent.action.SIGNUP"/>
+
+                <category android:name="android.intent.category.SIGNUP"/>
             </intent-filter>
         </activity>
 
