@@ -35,17 +35,13 @@ class MainActivity : ComponentActivity() {
     private lateinit var signInLauncher: ActivityResultLauncher<Intent>
     private lateinit var auth: FirebaseAuth
 
-    //private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_main)
-
-        val button = findViewById<Button>(R.id.button)
-        val button0 = findViewById<Button>(R.id.button0)
-        val button1 = findViewById<Button>(R.id.button1)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         signInLauncher =
             registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
@@ -74,20 +70,20 @@ class MainActivity : ComponentActivity() {
 
         // operations to be performed
         // when user tap on the button
-        button?.setOnClickListener {
+        binding.button.setOnClickListener {
             // displaying a toast message
             Toast.makeText(this@MainActivity, R.string.message, Toast.LENGTH_LONG).show()
             startActivity(Intent(this@MainActivity, LoginActivity::class.java))
         }
 
-        button0?.setOnClickListener {
+        binding.button0.setOnClickListener {
             // displaying a toast message
             Toast.makeText(this@MainActivity, R.string.message0, Toast.LENGTH_LONG).show()
             val signInIntent = googleSignInClient.signInIntent // Obtain the signInIntent here
             signInLauncher.launch(signInIntent)
         }
 
-        button1?.setOnClickListener {
+        binding.button1.setOnClickListener {
             // displaying a toast message
             Toast.makeText(this@MainActivity, R.string.message1, Toast.LENGTH_LONG).show()
             startActivity(Intent(this@MainActivity, SignupActivity::class.java))
